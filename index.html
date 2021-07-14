@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css@3.5.0/css/flag-icon.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💉</text></svg>">
+    <meta name="theme-color" content="#c62828" />
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript>
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:700&display=swap"
+        rel="stylesheet"
+        type="text/css"
+    />
+  </noscript>
+    <link rel="stylesheet" href="style.css">
+    <meta name="Description" content="A simple website to keep track of COVID-19 vaccinations in the world">
+    <title>COVID-19 Vaccinations</title>
+</head>
+
+<body>
+    <h1>Total COVID-19 vaccinations per country 💉</h1>
+    Touch a flag to reveal its name!
+    <div class="wrap">
+        <div class="search">
+            <input type="text" class="searchTerm" placeholder="Which Country do you want to know?">
+            <button type="submit" class="searchButton">
+           <i class="fa fa-search"></i>
+        </button>
+        </div>
+    </div>
+    <div id="countries">
+    </div>
+    MADE BY RAJATH CR
+    <footer>
+
+        <p>All the data is directly taken from
+            <a href="https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations">
+        Our World In Data
+      </a> and, so, I take no responsibility for their reliability. Flags are taken from
+            <a href="https://github.com/lipis/flag-icon-css">
+        flag-icon-css
+      </a>. This website is open source and hosted on
+            <a href="https://github.com/rajath14/COVID-VACCINE-TRACKER">
+        GitHub
+      </a>
+        </p>
+    </footer>
+</body>
+
+</html>

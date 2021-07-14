@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+    background: #04a0a5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+    width: 100%;
+    position: top;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid #000000;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus {
+    color: #000000;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #000000;
+    background: #004966;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+/*Resize the wrap to see the search bar change!*/
+
+.wrap {
+    width: 30%;
+    position: left;
+    top: 100%;
+    left: 10%;
+    transform: translate(115%, -200%);
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #2e43a1;
+}
+
+body {
+    text-align: center;
+    margin: 2vw 0;
+    font-family: "Poppins", "Roboto", "Noto", sans-serif;
+}
+
+h1 {
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+    font-size: 3rem;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#countries {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 3.5vw;
+}
+
+.country {
+    width: 28.7vw;
+    height: 21.52vw;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover !important;
+    box-shadow: 0 4px 9px 0 rgb(0 0 0 / 40%), 0 6px 20px 0 rgb(0 0 0 / 29%);
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 4rem;
+    font-weight: bold;
+    white-space: nowrap;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgba(17, 198, 211, 0.2);
+    color: black;
+    white-space: pre-wrap;
+}
+
+.overlay:hover {
+    font-size: 3rem;
+}
+
+footer {
+    width: 90%;
+    margin-top: 4vw;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.6;
+}
+
+@media only screen and (max-width: 1000px) {
+    #countries {
+        gap: 4vw;
+    }
+    .country {
+        width: 44vw;
+        height: 33vw;
+    }
+    footer {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        margin-top: 3vw;
+        margin-bottom: 5vw;
+        font-size: 2rem;
+    }
+    #countries {
+        gap: 6vw;
+    }
+    .country {
+        width: 88vw;
+        height: 66vw;
+    }
+    .overlay {
+        font-size: 3rem;
+    }
+    footer {
+        margin-top: 5vw;
+        font-size: 1rem;
+    }
+}
