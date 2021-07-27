@@ -1,6 +1,7 @@
 # COVID-VACCINE-TRACKER
 This website shows data on how many people have received at least one dose of a vaccine.!
-[uuuu](https://user-images.githubusercontent.com/77914762/127099180-4ba6ec39-23d7-4a12-acab-e3e426765754.PNG)
+
+[uuuu](https://user-images.githubusercontent.com/77914762/127099180-4ba6ec39-23d7-4a12-acab-e3e426765754.png)
 
 
 
