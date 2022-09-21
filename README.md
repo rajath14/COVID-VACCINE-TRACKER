@@ -1,6 +1,9 @@
 # COVID-VACCINE-TRACKER
 This website shows data on how many people have received at least one dose of a vaccine.!
 
+
+direct link to my website- https://rajath14.github.io/COVID-VACCINE-TRACKER/
+
 ![Capture11111](https://user-images.githubusercontent.com/77914762/127634853-2f1c0bd7-a2f9-4d62-a536-cbc0a745852d.PNG)
 
 
